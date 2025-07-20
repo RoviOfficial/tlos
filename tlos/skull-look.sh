@@ -1,13 +1,5 @@
 #!/bin/bash
-
-pkg install figlet toilet lolcat -y
-
-echo 'clear' > ~/.bashrc
-echo 'figlet "TLOS TENGKORAK" | lolcat' >> ~/.bashrc
-echo 'echo "☠️☠️☠️☠️☠️☠️☠️☠️☠️" | lolcat' >> ~/.bashrc
-echo 'echo "By Rovi Sadat" | lolcat' >> ~/.bashrc
-echo 'echo "☠️ Welcome to the Skull Mode ☠️" | lolcat' >> ~/.bashrc
-echo 'echo "☠️☠️☠️☠️☠️☠️☠️☠️☠️" | lolcat' >> ~/.bashrc
-
+pkg install toilet -y
 clear
-echo "✅ Tampilan tengkorak berhasil diatur!"
+toilet -f mono12 -F metal "TLOS"
+echo "Tampilan tengkorak berhasil diaktifkan!"
